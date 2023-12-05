@@ -1,0 +1,15 @@
+:root {
+    --light-color: #f0f3f2;
+}
+
+.bgmainlight {
+
+    background-color: var(--light-color) !important;
+
+}
+
+.logo {
+
+    width: 50px;
+
+}

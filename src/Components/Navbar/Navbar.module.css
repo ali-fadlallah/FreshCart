@@ -1,0 +1,33 @@
+.faBrands {
+
+    cursor   : pointer;
+    font-size: large;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: teal;
+    }
+
+    /* Additional styles for smaller screens */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+
+        background-color: yellow;
+    }
+
+    /* Additional styles for medium-sized screens */
+}
+
+/* Media query for screens with a minimum width of 901px */
+
+@media only screen and (min-width: 901px) {
+    .nav-link {
+        color: red !important;
+    }
+
+    /* Additional styles for larger screens */
+}
