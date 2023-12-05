@@ -1,4 +1,4 @@
-import { Navigate, Router, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Navigate, Router, RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import './App.css';
 import MasterLayout from './Components/MasterLayout/MasterLayout';
 import Home from './Components/Home/Home';
@@ -29,7 +29,7 @@ function App() {
   }, [])
 
 
-  const Routers = createBrowserRouter([
+  const Routers = createHashRouter([
 
     {
       path: '/', element: <MasterLayout />, errorElement: <NotFound />, children: [

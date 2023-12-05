@@ -43,7 +43,7 @@ export default function Products() {
                                     />
                                     <h6 className="text-main mt-1">{item.category.name}</h6>
                                     <h6>{item.title.split(' ').slice(0, 2).join(' ')}</h6>
-                                    <div className="d-flex justify-content-between">
+                                    <div className="d-flex justify-content-between mb-3">
                                         <div>
                                             <h6 className="fw-bold d-inline text-danger">{item.price}</h6><span> EGP</span>
                                         </div>
