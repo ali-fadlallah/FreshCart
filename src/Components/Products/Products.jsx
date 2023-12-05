@@ -31,10 +31,10 @@ export default function Products() {
                     />
                 </div>
             ) : (
-                <div className="row">
+                <div className="row justify-content-center">
                     {data?.data?.data.sort((a, b) => (b.ratingsAverage - a.ratingsAverage)).slice(0, 10).map((item) => (
                         <div key={item._id} className="col-md-2">
-                            <div className="product p-2 cursor-pointer">
+                            <div className="product p-2">
                                 <div>
                                     <img
                                         src={item.imageCover}

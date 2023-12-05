@@ -72,7 +72,7 @@ export default function FeaturedProducts() {
                     />
                 </div>
             ) : (
-                <div className="row">
+                <div className="row justify-content-center">
                     {data.map((item) => (
                         <div key={item._id} className="col-md-2">
                             <div className="product p-2 cursor-pointer">

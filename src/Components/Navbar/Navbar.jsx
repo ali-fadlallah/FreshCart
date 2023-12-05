@@ -39,7 +39,7 @@ export default function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={'products'}>Products</Link>
+                                <Link className="nav-link" to={'products'}>Top Products</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={'categories'}>Categories</Link>
