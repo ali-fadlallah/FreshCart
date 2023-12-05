@@ -19,7 +19,6 @@ export default function FeaturedProducts() {
 
     const { token } = useContext(TokenContext);
 
-
     async function getFeaturedProducts() {
         let { data } = await axios.get(`${baseURL}v1/products`);
         setdata(data.data);

@@ -44,9 +44,9 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <Link className="nav-link" to={'categories'}>Categories</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to={'brands'}>Brands</Link>
-                            </li>
+                            </li> */}
                         </ul>
 
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center" >

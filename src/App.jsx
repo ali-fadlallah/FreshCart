@@ -35,7 +35,7 @@ function App() {
       path: '/', element: <MasterLayout />, errorElement: <NotFound />, children: [
 
         { path: '/', element: <Home /> },
-        { path: 'brands', element: <Brands /> },
+        // { path: 'brands', element: <Brands /> },
         { path: 'cart', element: <ProtectedRoutes><Cart /></ProtectedRoutes> },
         { path: 'products', element: <Products /> },
         { path: 'categories', element: <Categories /> },
